@@ -6,14 +6,14 @@ export default class UserNewScreen extends Component {
     render() {
         return (
             <div className="container">
-                <h3 class="mb-4 ms-3">Карточка пользователя</h3>
+                <h3 className="mb-4 ms-3">Карточка пользователя</h3>
                 <form className=" row row-cols-1 g-3 mb-3 ms-5 " novalidate id="firstForm">
                     <div className="col-12 col-md-8">
                         <label for="userSurname" className="form-label">Фамилия*</label>
                         <input type="text" className="form-control easyCheck" id="userSurname" required />
                         <div className="invalid-feedback">
                             пожалуйста, укажите фамилию
-                    </div>
+                        </div>
                     </div>
 
                     <div className="col-12 col-md-8">
